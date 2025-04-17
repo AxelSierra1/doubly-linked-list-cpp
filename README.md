@@ -20,15 +20,21 @@ doubly-linked-list/
 ├── src/
 │   ├── Node.cpp
 │   └── List.cpp
-├── build/
-│   └── list_example.exe
-├── .gitignore
 ├── main.cpp
 └── README.md
 ```
 
 ## How to compile and run
+
+Create the build directory if it doesn't exist
 ```
-g++ -o build/list_example main.cpp
+mkdir -p build
+```
+Compile
+```
+g++ -o build/list_example main.cpp src/List.cpp src/Node.cpp -Iinclude
+```
+Run
+```
 ./build/list_example
 ```
