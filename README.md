@@ -32,7 +32,7 @@ mkdir -p build
 ```
 Compile
 ```
-g++ -o build/list_example main.cpp src/List.cpp src/Node.cpp -Iinclude
+g++ -o build/list_example main.cpp -Iinclude
 ```
 Run
 ```
