@@ -17,9 +17,6 @@ doubly-linked-list/
 ├── include/
 │   ├── Node.h
 │   └── List.h
-├── src/
-│   ├── Node.cpp
-│   └── List.cpp
 ├── main.cpp
 └── README.md
 ```
