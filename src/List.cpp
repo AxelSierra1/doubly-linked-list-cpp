@@ -1,4 +1,4 @@
-#include "List.h"
+#include "../include/List.h"
 
 template<class T>
 List<T>::List(){

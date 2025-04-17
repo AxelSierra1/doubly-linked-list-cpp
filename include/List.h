@@ -1,4 +1,4 @@
-#include "Node.cpp"
+#include "../src/Node.cpp"
 
 template<class T>
 class List{

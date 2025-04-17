@@ -14,15 +14,20 @@ This is a generic implementation of a doubly linked list using templates in C++.
 ## Structure
 ```
 doubly-linked-list/
-├── Node.h       # Declaration of the Node class
-├── Node.cpp     # Implementation of the Node class
-├── List.h       # Declaration of the List class
-├── List.cpp     # Implementation of the List class
-└── main.cpp     # Example usage and tests
+├── include/
+│   ├── Node.h
+│   └── List.h
+├── src/
+│   ├── Node.cpp
+│   └── List.cpp
+├── build/
+│   └── list_example.exe
+├── main.cpp
+└── README.md
 ```
 
 ## How to compile and run
 ```
-g++ main.cpp -o list_example
-./list_example
+g++ -o build/list_example main.cpp
+./build/list_example
 ```
