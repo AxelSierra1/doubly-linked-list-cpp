@@ -22,6 +22,7 @@ doubly-linked-list/
 │   └── List.cpp
 ├── build/
 │   └── list_example.exe
+├── .gitignore
 ├── main.cpp
 └── README.md
 ```
